@@ -1,0 +1,2 @@
+Patch "Disable Title Outro" by "Skyth"
+WriteProtected<int>(0x57346F, 0x16A36CC);

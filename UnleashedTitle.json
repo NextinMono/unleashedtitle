@@ -1,0 +1,47 @@
+{
+  "Groups": [
+    {
+      "Name": "Appearance",
+      "DisplayName": "Appearance",
+      "Elements": [       
+        {
+          "Name": "LogoType",
+          "Description": [
+            "Select between these logos:\n-Sonic Unleashed\n-Sonic World Adventure\n-Sonic Generations"
+          ],
+          "DisplayName": "Logo Type",
+          "Type": "LogoEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 0
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "LogoEnum": [
+      {
+        "DisplayName": "Unleashed",
+        "Value": 0,
+        "Description": [
+          "Uses the Sonic Unleashed logo."
+        ]
+      },
+      {
+        "DisplayName": "SWA",
+        "Value": 1,
+        "Description": [
+          "Uses the Sonic World Adventure logo."
+        ]
+      },
+      {
+        "DisplayName": "Generations",
+        "Value": 2,
+        "Description": [
+          "Uses the Sonic Generations logo."
+        ]
+      }
+    ]    
+  },
+  "IniFile": "mod.ini"
+}
