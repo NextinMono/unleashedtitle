@@ -1,4 +1,4 @@
-## SWA Title Screen Port v1.2
+## SWA Title Screen Port v1.2.0
 - Added an option to ignore the D3D11 warning at startup
 
 ## SWA Title Screen Port v1.1
