@@ -1,6 +1,23 @@
 {
   "Groups": [
     {
+      "Name": "General",
+      "DisplayName": "General",
+      "Elements": [       
+        {
+          "Name": "IgnoreWarnings",
+          "Description": [
+            "D3D11 might cause a crash on certain types of GPUs, and because of that the mod will display a warning before starting the game, enabling this option will disable the warning."
+          ],
+          "DisplayName": "Ignore D3D11 Warning",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        }
+      ]
+    },
+    {
       "Name": "Appearance",
       "DisplayName": "Appearance",
       "Elements": [       
